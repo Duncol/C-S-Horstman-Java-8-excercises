@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Test{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int nmbr = scan.nextInt();
+        System.out.println(Integer.toBinaryString(nmbr));
+        System.out.println(Integer.toOctalString(nmbr));
+        System.out.println(Integer.toHexString(nmbr));
+        System.out.println(Double.toHexString((double) 1/nmbr));
+    }
+}
